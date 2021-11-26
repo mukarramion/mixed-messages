@@ -7,7 +7,7 @@ const knock_KnockJokes={
 };
 
 let knock_knock=[];
-knock_knock.push('Knock! Knock!');
+knock_knock.push('Knock! Knock! \u{270A}\u{1F6AA}');
 knock_knock.push('Who\'s there?');
 let kk_Index=generaterRandomNumber(knock_KnockJokes.reply.length);
 for(let part in knock_KnockJokes){
