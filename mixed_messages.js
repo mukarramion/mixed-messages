@@ -26,7 +26,7 @@ for(let part in knock_KnockJokes){
     }
 }
 const formatJoke=joke=>{
-    const formatted= knock_knock.join('\n');
+    const formatted= joke.join('\n');
     console.log(formatted);
 }
 formatJoke(knock_knock);
